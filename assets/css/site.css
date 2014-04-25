@@ -1,0 +1,467 @@
+body {
+    background-color: #000 !important;
+    color: #FFF !important;
+    font-size: 16px !important;
+}
+
+h1, h2, h3, h4 {
+    font-family: Pacifico, Sans-Serif !important;
+    color: #FFF !important;
+}
+
+.homeBackground-wrapper {
+    /*background:no-repeat center center fixed;*/
+    background:linear-gradient(rgba(255, 204, 0, 0.7 ),rgba(255, 204, 0, 0.7 )), url('../images/scholieren_wallpaper.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*Buttons for onepage*/
+.onepage-buttons {
+    position: fixed;
+    right: 0px;
+    top: 48%;
+    left: 97%;
+    margin: 0;
+    z-index: 5;
+    list-style: none;
+    padding: 0;
+}
+
+.onepage-buttons li a img {
+    margin-bottom: 10px;
+}
+
+.onepage-home-image {
+    width: 90%;
+    cursor: pointer;
+}
+
+.onepage-info-image {
+    width: 90%;
+    cursor: pointer;
+}
+
+.logo-img {
+    width: 60%;
+    margin-top: 200px;
+}
+
+.homepage-wrapper {
+    margin-top: 30px;
+    height: 400px;
+}
+
+/* Home buttons */
+
+.Web_Login_Button {
+    width: 45%;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.Web_Register_Button{
+    width: 45%;
+    margin-top: -90px;
+    margin-left: 580px;
+    cursor: pointer;
+}
+
+.Web_MeerInfo_Button{
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 380px;
+    cursor: pointer;
+}
+
+.Mob_MeerInfo_Button {
+    width: 350px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Mob_Login_Button {
+    width: 350px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Mob_Register_Button{
+
+    width: 350px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*Onepager size*/
+.meerInfo {
+    background-color: #1abc9c;
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+}
+
+.ontdek_site_text {
+    margin-top: 50px;
+}
+
+.ontdek_intro {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.ontdek_scholieren {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.ontdek_studenten {
+    margin-top: 10px;
+    width: 40%;
+}
+
+.instagram_example {
+    margin-top: -380px;
+}
+.instagram_example1 {
+    margin-left: -120px;
+}
+
+.instagram_example2 {
+    margin-top: -400px;
+    margin-left: 210px;
+}
+
+.voorscholieren {
+    width: 55%;
+}
+
+.voorstudenten {
+    width: 55%;
+}
+
+.login-wrapper {
+    position: absolute;
+    background:linear-gradient(rgba(255, 177, 104, 0.4 ),rgba(255, 177, 104, 0.4 )), url('../images/studiekeuze.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.login {
+    margin-top: 240px;
+}
+
+.login_form {
+
+}
+
+.login_logo {
+    width: 20%;
+}
+
+.login-home-image {
+    position: fixed;
+    right: 0px;
+    top: 5%;
+    left: 45%;
+    margin: 0;
+    z-index: 5;
+    list-style: none;
+    padding: 0;
+    width: 10%;
+    cursor: pointer;
+}
+
+.register {
+    margin-top: 250px;
+    max-height: 400px;
+}
+
+.register-wrapper {
+    position: absolute;
+    background:linear-gradient(rgba(255, 177, 104, 0.4 ),rgba(255, 177, 104, 0.4 )), url('../images/studiekeuze.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.register_logo {
+    width: 20%;
+}
+
+/*Once loggedin as scholier*/
+.profile-logo {
+    width: 40%;
+    margin-top: 5px;
+}
+
+.Web_settingDropdown {
+    margin-top: -100px;
+    cursor: pointer;
+}
+
+.Mob_settingDropdown {
+    margin-top: -200px;
+    cursor: pointer;
+}
+
+.Mob_settings {
+    width: 10%;
+    margin-top: -60px;
+}
+
+.mob_dropdown {
+    margin-top: -40px;
+    margin-left: 320px;
+}
+
+.mob_dropdown_settings {
+    margin-top: -20px !important;
+    margin-left: 210px !important;
+}
+
+.view_opleiding {
+    background-color: #39b3d7;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+#studentAccount_Wrapper
+{
+    position: absolute;
+    background:linear-gradient(rgba(212, 46, 223, 0.4 ),rgba(212, 46, 223, 0.4 )), url('../images/studying.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#scholier {
+    position: absolute;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.OnePagerScholieren {
+    width: 100%;
+    height: 375px;
+}
+.instagramTimeline {
+    width: 20%;
+}
+
+.instgramPhotos {
+    margin-top: 10px;
+}
+
+.dropdown-menu {
+    margin-left: -50px !important;
+}
+
+.editscholier_info {
+    margin-top: 100px;
+}
+
+.reviews {
+    margin-top: 150px;
+}
+
+.loginIGButton {
+    margin-top: 20px;
+}
+
+.popover-content {
+    color: #000 !important;
+    margin-left: 20px !important;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        width: 200px;
+        background-color: #34AADC !important;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: Pacifico, Sans-Serif !important;
+        color: #FFF !important;
+    }
+
+    .homeBackground-wrapper {
+        /*background:no-repeat center center fixed;*/
+        background:linear-gradient(rgba(255, 204, 0, 0.7 ),rgba(255, 204, 0, 0.7 )), url('../images/scholieren_wallpaper.jpg');
+        width: 160%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    li {
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    /*Buttons for onepage*/
+    .onepage-buttons {
+        position: fixed;
+        right: 0px;
+        top: 48%;
+        left: 97%;
+        margin: 0;
+        z-index: 5;
+        list-style: none;
+        padding: 0;
+    }
+
+    .onepage-buttons li a img {
+        margin-bottom: 10px;
+    }
+
+    .onepage-home-image {
+        width: 90%;
+        cursor: pointer;
+    }
+
+    .onepage-info-image {
+        width: 90%;
+        cursor: pointer;
+    }
+
+    .logo-img {
+        width: 60%;
+        margin-top: 200px;
+    }
+
+    .homepage-wrapper {
+        margin-top: 30px;
+        height: 400px;
+    }
+
+    /* Home buttons */
+
+    .Web_MeerInfo_Button{
+        width: 30%;
+        margin-top: 50px;
+        margin-left: 380px;
+        cursor: pointer;
+    }
+
+    .Mob_MeerInfo_Button {
+        width: 250px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .Mob_Login_Button {
+        width: 250px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .Mob_Register_Button{
+
+        width: 250px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    /*Onepager size*/
+    .meerInfo {
+        background-color: #1abc9c;
+        width: 160%;
+        height: 100%;
+        min-height: 500px;
+    }
+
+    .ontdek_site_text {
+        margin-top: 50px;
+        width: 300%;
+    }
+
+    .ontdek_intro {
+        margin-top: 20px;
+        width: 160%;
+    }
+
+    .ontdek_scholieren {
+        margin-top: 20px;
+        width: 160%;
+    }
+
+    .ontdek_studenten {
+        margin-left: 100px;
+        width: 160%;
+    }
+
+    .instagram_example1 {
+        display: none;
+    }
+
+    .instagram_example2 {
+        display: none;
+    }
+
+    .login {
+        margin-top: 75px;
+    }
+
+    .register {
+        margin-top: 75px;
+        max-height: 400px;
+    }
+
+    /*Once loggedin*/
+    .profile-logo {
+        width: 40%;
+        margin-top: 5px;
+    }
+
+    .Web_settingDropdown {
+        margin-top: -100px;
+        cursor: pointer;
+    }
+
+    .Mob_settingDropdown {
+        margin-top: -200px;
+        cursor: pointer;
+    }
+
+    .Mob_settings {
+        width: 10%;
+        margin-top: -60px;
+    }
+
+    .mob_dropdown {
+        margin-top: -40px;
+        margin-left: 320px;
+    }
+
+    .mob_dropdown_settings {
+        margin-top: -20px !important;
+        margin-left: 210px !important;
+    }
+
+}
